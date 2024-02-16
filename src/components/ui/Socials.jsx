@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 

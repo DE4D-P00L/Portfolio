@@ -2,6 +2,8 @@ import chapAppImg from "../assets/images/mockups/chat_app.png";
 import secretShareImg from "../assets/images/mockups/secret_share.png";
 import nikeCloneImg from "../assets/images/mockups/nike_clone.png";
 import gameHubImg from "../assets/images/mockups/game_home.png";
+import portfolioImg from "../assets/images/mockups/portfolio.png";
+import kanbanImg from "../assets/images/mockups/taskplanner.png";
 
 export const projectData = [
   {
@@ -60,6 +62,43 @@ export const projectData = [
   },
   {
     id: 3,
+    name: "Portfolio",
+    summary:
+      "Dynamic React portfolio! Built with blazing-fast Vite, TailwindCSS's versatile design (including light and dark mode!), and Zustand for interactive navigation, it showcases your skills with captivating Framer Motion animations.  ✨ Stand out from the crowd and land your dream job with this powerful & personalized showcase.",
+    imageUrl: portfolioImg,
+    stack: [
+      "ReactJS",
+      "TailwindCSS",
+      "Zustand",
+      "React Icons",
+      "Framer motion",
+      "Vite",
+      "Figma",
+    ],
+    sourceCodeUrl: "https://github.com/DE4D-P00L/Portfolio",
+    liveDemoUrl: "https://portfolio-d41i.onrender.com/",
+  },
+  {
+    id: 4,
+    name: "TaskPlanner(KanBan board)",
+    summary:
+      "Tame your tasks offline! This React Kanban board lets you visualize progress, drag-and-drop tasks, and manage priorities – all within your browser. Switch between light and dark themes for added comfort. Bonus: No server needed! Local storage keeps your tasks safe. Built with ReactJS, TailwindCSS, and Vite, this app empowers you to organize and conquer.",
+    imageUrl: kanbanImg,
+    stack: [
+      "ReactJS",
+      "TailwindCSS",
+      "DaisyUI",
+      "UUID",
+      "React-DND",
+      "React-Hot-Toast",
+      "LocalStorage",
+      "Vite",
+    ],
+    sourceCodeUrl: "https://github.com/DE4D-P00L/TaskPlanner",
+    liveDemoUrl: "https://portfolio-d41i.onrender.com/",
+  },
+  {
+    id: 5,
     name: "Nike Clone",
     summary:
       "Swoosh into a near-authentic Nike haven! This clone app replicates the familiar Nike experience, built with lightning-fast Vite, interactive React, and stylish TailwindCSS. Browse collections, filter favorites, even fill your virtual cart – all mirroring the real Nike site. Unleash your inner sneakerhead without breaking the bank!",
@@ -69,7 +108,7 @@ export const projectData = [
     liveDemoUrl: "https://store-app-xao7.onrender.com",
   },
   {
-    id: 4,
+    id: 6,
     name: "GameHub",
     summary:
       "Immerse yourself in a world of gaming with this captivating catalogue website! Built with the web's building blocks (HTML, CSS, JS), it showcases diverse games with enticing trailers and summaries. A responsive menu keeps navigation smooth on any device. Behind the scenes, PHP bridges the gap, fetching information like summaries and trailers from a MySQL database, painting a complete picture of each game. Discover your next adventure awaits, all in one convenient and visually stunning location!",

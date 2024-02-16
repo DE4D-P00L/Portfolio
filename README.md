@@ -1,8 +1,17 @@
-# React + Vite
+# React Portfolio Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository showcases a React portfolio built with a captivating blend of technologies:
 
-Currently, two official plugins are available:
+- **Vite:** Experience lightning-fast development and efficient hot reloading.
+- **TailwindCSS:** Craft a stunning design using utility-first classes and explore customization options (including light and dark mode!).
+- **Zustand:** Manage navigation state smoothly with a reactive store, ensuring a seamless user experience.
+- **Framer Motion:** Breathe life into your projects with captivating animations that grab attention and leave a lasting impression.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Get Involved
+
+- **Fork this repository and explore the codebase.**
+- **Get started with the used technologies:**
+  - [Vite](https://vitejs.dev/)
+  - [TailwindCSS](https://tailwindcss.com/)
+  - [Zustand](https://zustand.pm/)
+  - [Framer Motion](https://www.framer.com/motion/)
