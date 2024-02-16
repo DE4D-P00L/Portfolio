@@ -80,7 +80,7 @@ export const projectData = [
   },
   {
     id: 4,
-    name: "TaskPlanner(KanBan board)",
+    name: "TaskPlanner (KanBan board)",
     summary:
       "Tame your tasks offline! This React Kanban board lets you visualize progress, drag-and-drop tasks, and manage priorities – all within your browser. Switch between light and dark themes for added comfort. Bonus: No server needed! Local storage keeps your tasks safe. Built with ReactJS, TailwindCSS, and Vite, this app empowers you to organize and conquer.",
     imageUrl: kanbanImg,
