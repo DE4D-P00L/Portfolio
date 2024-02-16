@@ -1,4 +1,4 @@
-# React Portfolio Prototype
+# React Portfolio
 
 This repository showcases a React portfolio built with a captivating blend of technologies:
 
