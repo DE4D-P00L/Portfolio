@@ -15,7 +15,7 @@ const Projects = () => {
               <span className="dark:text-accent-dark text-accent-light">
                 {"03. "}
               </span>
-              PROJECTS
+              RECENT PROJECTS
             </h2>
           </RevealFromBottom>
         </div>
