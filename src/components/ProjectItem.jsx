@@ -20,7 +20,7 @@ const ProjectItem = ({ project, reverse }) => {
           </div>
         </Reveal>
         <div className="flex-1 flex flex-col gap-3">
-          <h3 className="font-bold text-5xl text-accent-light dark:text-accent-dark">
+          <h3 className="font-bold text-5xl text-accent-light dark:text-accent-dark break-words">
             {project.name}
           </h3>
           <div className="flex flex-wrap gap-x-2.5 gap-y-2 my-3">
