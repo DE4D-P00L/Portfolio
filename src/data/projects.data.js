@@ -95,7 +95,7 @@ export const projectData = [
       "Vite",
     ],
     sourceCodeUrl: "https://github.com/DE4D-P00L/TaskPlanner",
-    liveDemoUrl: "https://portfolio-d41i.onrender.com/",
+    liveDemoUrl: "https://taskplanner-u50h.onrender.com/",
   },
   {
     id: 5,
