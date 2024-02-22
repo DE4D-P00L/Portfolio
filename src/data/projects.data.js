@@ -106,7 +106,7 @@ export const projectData = [
     ],
     testCredentials: ["johndoe123", "password"],
     sourceCodeUrl: "https://github.com/DE4D-P00L/TaskPlanner",
-    liveDemoUrl: "https://taskplanner-u50h.onrender.com/",
+    liveDemoUrl: "https://portfolio-d41i.onrender.com/",
   },
   {
     id: 5,
