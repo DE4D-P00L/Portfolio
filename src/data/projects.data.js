@@ -48,6 +48,7 @@ export const projectData = [
       "BcryptJS",
       "LocalStorage",
       "JWT",
+      "Framer motion",
       "Axios",
       "Redux",
       "React-router-dom",
