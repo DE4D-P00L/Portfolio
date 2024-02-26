@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="container flex flex-col text-[3rem] sm:text-[5rem] leading-[3rem] sm:leading-[5rem] justify-start z-10">
         <div className="flex flex-col">
           <RevealFromBottom>
-            <h2 className="text-5xl font-bold py-20">
+            <h2 className="text-5xl font-bold py-20 font-kanit">
               <span className="dark:text-accent-dark text-accent-light">
                 {"03. "}
               </span>

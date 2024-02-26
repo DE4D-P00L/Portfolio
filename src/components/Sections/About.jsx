@@ -8,7 +8,7 @@ const About = () => {
   return (
     <NavAnimation section="about">
       <div
-        className="min-h-screen bg-secondary text-fontColor-dark grid items-center font-kanit py-16 relative z-[1]"
+        className="min-h-screen bg-secondary text-fontColor-dark grid items-center py-16 relative z-[1]"
         id="about">
         <div
           className={`absolute top-0 left-0 w-full h-full grid place-content-center z-[10] stroke-2 x-10 watermark-about`}
@@ -16,7 +16,7 @@ const About = () => {
         <div className="container flex flex-col md:flex-row gap-5 z-10">
           <div className="flex-1 flex flex-col max-w-[75ch] justify-center h-full">
             <RevealFromBottom>
-              <h2 className="text-5xl font-bold">
+              <h2 className="text-5xl font-bold font-kanit">
                 <span className="dark:text-accent-dark text-accent-light">
                   {"01. "}
                 </span>

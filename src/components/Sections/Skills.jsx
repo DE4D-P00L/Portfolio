@@ -22,7 +22,7 @@ const Skills = () => {
         />
         <div className="container flex flex-col z-10 justify-between">
           <RevealFromBottom section="about">
-            <h2 className="text-5xl font-bold text-right">
+            <h2 className="text-5xl font-bold text-right font-kanit">
               <span className="dark:text-accent-dark text-accent-light">
                 {"02. "}
               </span>
