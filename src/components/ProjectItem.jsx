@@ -38,6 +38,15 @@ const ProjectItem = ({ project, reverse }) => {
               <h3>Password: {project.testCredentials?.[1]}</h3>
             </div>
           )}
+          {project.adminCredentials && (
+            <div className="flex flex-col my-3 p-3 px-5 border border-primary-dark dark:border-primary-light rounded-xl w-fit relative text-base">
+              <span className="absolute -top-4 bg-primary-light dark:bg-primary-dark px-2">
+                Test Credentials(Admin)
+              </span>
+              <h3>Username/Email: {project.adminCredentials?.[0]}</h3>
+              <h3>Password: {project.adminCredentials?.[1]}</h3>
+            </div>
+          )}
           <div className="flex gap-5 flex-wrap">
             <a
               href={project.sourceCodeUrl}

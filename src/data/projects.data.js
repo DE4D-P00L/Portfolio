@@ -4,6 +4,7 @@ import nikeCloneImg from "../assets/images/mockups/nike_clone.png";
 import gameHubImg from "../assets/images/mockups/game_home.png";
 import portfolioImg from "../assets/images/mockups/portfolio.png";
 import kanbanImg from "../assets/images/mockups/taskplanner.png";
+import wheelocityImg from "../assets/images/mockups/wheelocity.png";
 
 export const projectData = [
   {
@@ -65,7 +66,6 @@ export const projectData = [
     sourceCodeUrl: "https://github.com/DE4D-P00L/TaskPlanner",
     liveDemoUrl: "https://taskplanner-u50h.onrender.com",
   },
-
   {
     id: 3,
     name: "Portfolio",
@@ -86,6 +86,36 @@ export const projectData = [
   },
   {
     id: 4,
+    name: "Wheelocity (CarRental)",
+    summary:
+      "Wheelocity is a modern car rental website leveraging the MERN stack (MongoDB, Express.js, React, and Node.js). Users can search, filter, and book cars, while an admin panel manages inventory and bookings. TailwindCSS, Framer Motion, and various React libraries provide a sleek, responsive, and user-friendly experience.",
+    imageUrl: wheelocityImg,
+    stack: [
+      "ReactJS",
+      "NodeJS",
+      "MongoDB",
+      "ExpressJS",
+      "Multer",
+      "Cloudinary",
+      "BcryptJS",
+      "JWT",
+      "Axios",
+      "Redux",
+      "React-hook-form",
+      "Framer Motion",
+      "DaisyUI",
+      "TailwindCSS",
+      "React-router-dom",
+      "React-icons",
+      "Vite",
+    ],
+    testCredentials: ["user@gmail.com", "password"],
+    adminCredentials: ["agency@gmail.com", "password"],
+    sourceCodeUrl: "https://github.com/DE4D-P00L/CarRental",
+    liveDemoUrl: "https://carrental-sehh.onrender.com/",
+  },
+  {
+    id: 5,
     name: "Secret Share",
     summary:
       "This secret sharing app leverages ReactJS for its core structure and utilizes technologies like TailwindCSS for a responsive and stylish UI. Form handling and validation are streamlined with React-Hook-Form, while navigation across different sections is made possible by React-Router-Dom. ReduxJS and Redux Toolkit manage the application's state, and Axios facilitates communication with the server. LocalStorage securely stores the JWT token, potentially for user authentication. Moreover, the app allows for anonymous chat functionality, offering flexibility in how users interact.",
@@ -111,7 +141,7 @@ export const projectData = [
     liveDemoUrl: "https://secret-share-btri.onrender.com",
   },
   {
-    id: 5,
+    id: 6,
     name: "Nike Clone",
     summary:
       "Swoosh into a near-authentic Nike haven! This clone app replicates the familiar Nike experience, built with lightning-fast Vite, interactive React, and stylish TailwindCSS. Browse collections, filter favorites, even fill your virtual cart – all mirroring the real Nike site. Unleash your inner sneakerhead without breaking the bank!",
@@ -121,7 +151,7 @@ export const projectData = [
     liveDemoUrl: "https://store-app-xao7.onrender.com",
   },
   {
-    id: 6,
+    id: 7,
     name: "GameHub",
     summary:
       "Immerse yourself in a world of gaming with this captivating catalogue website! Built with the web's building blocks (HTML, CSS, JS), it showcases diverse games with enticing trailers and summaries. A responsive menu keeps navigation smooth on any device. Behind the scenes, PHP bridges the gap, fetching information like summaries and trailers from a MySQL database, painting a complete picture of each game. Discover your next adventure awaits, all in one convenient and visually stunning location!",
