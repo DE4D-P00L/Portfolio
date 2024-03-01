@@ -34,17 +34,23 @@ const ProjectItem = ({ project, reverse }) => {
               <span className="absolute -top-4 bg-primary-light dark:bg-primary-dark px-2">
                 Test Credentials
               </span>
-              <h3>Username/Email: {project.testCredentials?.[0]}</h3>
+              <h3>
+                Username/Email: {project.testCredentials?.[0]}{" "}
+                {"," + project.adminCredentials &&
+                  project.adminCredentials?.[0]}
+              </h3>
               <h3>Password: {project.testCredentials?.[1]}</h3>
             </div>
           )}
-          {project.adminCredentials && (
+          {project.cardCredentials && (
             <div className="flex flex-col my-3 p-3 px-5 border border-primary-dark dark:border-primary-light rounded-xl w-fit relative text-base">
               <span className="absolute -top-4 bg-primary-light dark:bg-primary-dark px-2">
-                Test Credentials(Admin)
+                Test Card
               </span>
-              <h3>Username/Email: {project.adminCredentials?.[0]}</h3>
-              <h3>Password: {project.adminCredentials?.[1]}</h3>
+              <h3>Card Number: {project.cardCredentials?.[0]}</h3>
+              <h3>CVV: {project.cardCredentials?.[1]}</h3>
+              <h3>Expiry Date: {project.cardCredentials?.[2]}</h3>
+              <h3>OTP: 11111111</h3>
             </div>
           )}
           <div className="flex gap-5 flex-wrap">

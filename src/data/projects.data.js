@@ -111,6 +111,7 @@ export const projectData = [
     ],
     testCredentials: ["user@gmail.com", "password"],
     adminCredentials: ["agency@gmail.com", "password"],
+    cardCredentials: ["4111111111111111", "111", "1126"],
     sourceCodeUrl: "https://github.com/DE4D-P00L/CarRental",
     liveDemoUrl: "https://carrental-sehh.onrender.com/",
   },
