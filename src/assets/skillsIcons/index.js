@@ -13,6 +13,7 @@ import scssLogo from "./sass.png";
 import fmLogo from "./framer.png";
 import zustandLogo from "./zustand.png";
 import daisyUILogo from "./daisyui.png";
+import postman from "./postman.png";
 
 export {
   cssLogo,
@@ -30,4 +31,5 @@ export {
   fmLogo,
   zustandLogo,
   daisyUILogo,
+  postman,
 };

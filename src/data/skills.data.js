@@ -14,6 +14,7 @@ import {
   fmLogo,
   zustandLogo,
   daisyUILogo,
+  postman,
 } from "../assets/skillsIcons";
 
 export const skillsData = [
@@ -92,5 +93,10 @@ export const skillsData = [
     id: 15,
     title: "DaisyUI",
     imageUrl: daisyUILogo,
+  },
+  {
+    id: 16,
+    title: "Postman",
+    imageUrl: postman,
   },
 ];
