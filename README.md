@@ -2,6 +2,7 @@
 
 This repository showcases a React portfolio built with a captivating blend of technologies:
 
+- [Click me to view Portfolio](https://portfolio-d41i.onrender.com/)
 - **Vite:** Experience lightning-fast development and efficient hot reloading.
 - **TailwindCSS:** Craft a stunning design using utility-first classes and explore customization options (including light and dark mode!).
 - **Zustand:** Manage navigation state smoothly with a reactive store, ensuring a seamless user experience.
