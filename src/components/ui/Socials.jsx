@@ -6,13 +6,8 @@ const Socials = ({ className }) => {
   return (
     <div className={`flex gap-3 ${className}`}>
       <SocialIcons
-        socialIcon={<FaGithub />}
-        socialUrl="https://github.com/DE4D-P00L/"
-        socialColor="text-black"
-      />
-      <SocialIcons
         socialIcon={<FaLinkedin />}
-        socialUrl="https://www.linkedin.com/in/prashant-kumar-867a401b7/"
+        socialUrl="https://www.linkedin.com/in/prashant-webdev/"
         socialColor="text-[#0284c7]"
       />
       <SocialIcons

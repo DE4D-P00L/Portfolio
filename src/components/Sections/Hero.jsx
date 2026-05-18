@@ -25,7 +25,7 @@ const Hero = () => {
             <h2 className="break-words">Full Stack Developer</h2>
             <div className="mt-5 flex gap-5 flex-wrap text-xl sm:text-[2rem] items-center leading-[50px]">
               <a
-                href="https://github.com/DE4D-P00L/"
+                href="https://github.com/iAmPrashant-Dev"
                 target="_blank"
                 className="dark:bg-accent-dark bg-accent-light text-white px-5 rounded-lg flex items-center gap-4 py-1.5">
                 <FaGithub className="text-3xl" />

@@ -5,10 +5,36 @@ import gameHubImg from "../assets/images/mockups/game_home.png";
 import portfolioImg from "../assets/images/mockups/portfolio.png";
 import kanbanImg from "../assets/images/mockups/taskplanner.png";
 import wheelocityImg from "../assets/images/mockups/wheelocity.png";
+import wearoImg from "../assets/images/mockups/wearo.png";
 
 export const projectData = [
   {
     id: 1,
+    name: "Wearo (E-commerce)",
+    summary:
+      "A premium e-commerce platform built with Next.js 15, integrating a cutting-edge AI Virtual Try-On (VTON) assistant. It features a custom high-performance MongoDB aggregation pipeline for dynamic multi-select sidebar filtering, fuzzy search using MongoDB search indexes, secure credentials/OAuth authentication using NextAuth.js, seamless Razorpay payment integration, and robust client-side state persistence with Zustand for cart and wishlist management.",
+    imageUrl: wearoImg,
+    stack: [
+      "NextJS 15",
+      "ReactJS",
+      "TailwindCSS",
+      "Shadcn UI",
+      "MongoDB",
+      "Mongoose",
+      "Zustand",
+      "Next-Auth",
+      "Razorpay",
+      "MongoDB Atlas Search",
+      "Replicate API",
+      "IDM-VTON Model",
+      "Lucide Icons",
+    ],
+    cardCredentials: ["4100280000001007", "111", "11/29"],
+    sourceCodeUrl: "https://github.com/iAmPrashant-Dev/wearo",
+    liveDemoUrl: "https://wearo-sable.vercel.app/",
+  },
+  {
+    id: 2,
     name: "Chat App",
     summary:
       "This modern MERN stack application leverages cutting-edge technologies like Vite, Tailwind, localstorage and Socket.io for a blazing-fast, responsive and real-time user experience. Secure authentication with JWT and centralized state management with Redux ensure robustness and scalability. With its clean UI and diverse potential applications.",
@@ -32,11 +58,11 @@ export const projectData = [
       "Vite",
     ],
     testCredentials: ["johndoe123", "password"],
-    sourceCodeUrl: "https://github.com/DE4D-P00L/ChatApp-React",
+    sourceCodeUrl: "https://github.com/iAmPrashant-Dev/ChatApp-React",
     liveDemoUrl: "https://chat-app-r2oe.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     name: "TaskPlanner (KanBan board)",
     summary:
       "Tame your tasks! This Fullstack Kanban board lets you visualize progress, drag-and-drop tasks, and manage priorities – all within your browser. Switch between light and dark themes for added comfort. Built with MERN stack, React-DND, TailwindCSS, and Vite, this app empowers you to organize and conquer.",
@@ -63,11 +89,11 @@ export const projectData = [
       "Vite",
     ],
     testCredentials: ["johndoe123", "password"],
-    sourceCodeUrl: "https://github.com/DE4D-P00L/TaskPlanner",
+    sourceCodeUrl: "https://github.com/iAmPrashant-Dev/TaskPlanner",
     liveDemoUrl: "https://taskplanner-u50h.onrender.com",
   },
   {
-    id: 3,
+    id: 4,
     name: "Portfolio",
     summary:
       "Dynamic React portfolio! Built with blazing-fast Vite, TailwindCSS's versatile design (including light and dark mode!), and Zustand for interactive navigation, it showcases your skills with captivating Framer Motion animations. Stand out from the crowd and land your dream job with this powerful & personalized showcase.",
@@ -81,11 +107,11 @@ export const projectData = [
       "Vite",
       "Figma",
     ],
-    sourceCodeUrl: "https://github.com/DE4D-P00L/Portfolio",
+    sourceCodeUrl: "https://github.com/iAmPrashant-Dev/Portfolio",
     liveDemoUrl: "https://portfolio-d41i.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Wheelocity (CarRental)",
     summary:
       "Wheelocity is a modern car rental website leveraging the MERN stack (MongoDB, Express.js, React, and Node.js). Users can search, filter, and book cars, while an admin panel manages inventory and bookings. TailwindCSS, Framer Motion, and various React libraries provide a sleek, responsive, and user-friendly experience.",
@@ -111,56 +137,56 @@ export const projectData = [
     ],
     testCredentials: ["user@gmail.com", "password"],
     adminCredentials: ["agency@gmail.com", "password"],
-    cardCredentials: ["4111111111111111", "111", "1126"],
-    sourceCodeUrl: "https://github.com/DE4D-P00L/CarRental",
+    cardCredentials: ["4100280000001007", "111", "11/29"],
+    sourceCodeUrl: "https://github.com/iAmPrashant-Dev/CarRental",
     liveDemoUrl: "https://carrental-sehh.onrender.com/",
   },
+  // {
+  //   id: 6,
+  //   name: "Secret Share",
+  //   summary:
+  //     "This secret sharing app leverages ReactJS for its core structure and utilizes technologies like TailwindCSS for a responsive and stylish UI. Form handling and validation are streamlined with React-Hook-Form, while navigation across different sections is made possible by React-Router-Dom. ReduxJS and Redux Toolkit manage the application's state, and Axios facilitates communication with the server. LocalStorage securely stores the JWT token, potentially for user authentication. Moreover, the app allows for anonymous chat functionality, offering flexibility in how users interact.",
+  //   imageUrl: secretShareImg,
+  //   stack: [
+  //     "ReactJS",
+  //     "NodeJS",
+  //     "MongoDB",
+  //     "ExpressJS",
+  //     "BcryptJS",
+  //     "LocalStorage",
+  //     "JWT",
+  //     "Axios",
+  //     "Redux",
+  //     "React-hook-form",
+  //     "TailwindCSS",
+  //     "React-router-dom",
+  //     "React-icons",
+  //     "Vite",
+  //   ],
+  //   testCredentials: ["johndoe123@gmail.com", "password"],
+  //   sourceCodeUrl: "https://github.com/iAmPrashant-Dev/SecureMessage",
+  //   liveDemoUrl: "https://secret-share-btri.onrender.com",
+  // },
   {
-    id: 5,
-    name: "Secret Share",
-    summary:
-      "This secret sharing app leverages ReactJS for its core structure and utilizes technologies like TailwindCSS for a responsive and stylish UI. Form handling and validation are streamlined with React-Hook-Form, while navigation across different sections is made possible by React-Router-Dom. ReduxJS and Redux Toolkit manage the application's state, and Axios facilitates communication with the server. LocalStorage securely stores the JWT token, potentially for user authentication. Moreover, the app allows for anonymous chat functionality, offering flexibility in how users interact.",
-    imageUrl: secretShareImg,
-    stack: [
-      "ReactJS",
-      "NodeJS",
-      "MongoDB",
-      "ExpressJS",
-      "BcryptJS",
-      "LocalStorage",
-      "JWT",
-      "Axios",
-      "Redux",
-      "React-hook-form",
-      "TailwindCSS",
-      "React-router-dom",
-      "React-icons",
-      "Vite",
-    ],
-    testCredentials: ["johndoe123@gmail.com", "password"],
-    sourceCodeUrl: "https://github.com/DE4D-P00L/SecureMessage",
-    liveDemoUrl: "https://secret-share-btri.onrender.com",
-  },
-  {
-    id: 6,
+    id: 7,
     name: "Nike Clone",
     summary:
       "Swoosh into a near-authentic Nike haven! This clone app replicates the familiar Nike experience, built with lightning-fast Vite, interactive React, and stylish TailwindCSS. Browse collections, filter favorites, even fill your virtual cart – all mirroring the real Nike site. Unleash your inner sneakerhead without breaking the bank!",
     imageUrl: nikeCloneImg,
     stack: ["ReactJS", "TailwindCSS", "React-router-dom", "Vite"],
-    sourceCodeUrl: "https://github.com/DE4D-P00L/StoreApp",
+    sourceCodeUrl: "https://github.com/iAmPrashant-Dev/StoreApp",
     liveDemoUrl: "https://store-app-xao7.onrender.com",
   },
   {
-    id: 7,
+    id: 8,
     name: "GameHub",
     summary:
       "Immerse yourself in a world of gaming with this captivating catalogue website! Built with the web's building blocks (HTML, CSS, JS), it showcases diverse games with enticing trailers and summaries. A responsive menu keeps navigation smooth on any device. Behind the scenes, PHP bridges the gap, fetching information like summaries and trailers from a MySQL database, painting a complete picture of each game. Discover your next adventure awaits, all in one convenient and visually stunning location!",
     imageUrl: gameHubImg,
     stack: ["HTML", "CSS", "JavaScript", "GSAP", "PHP", "MySQL"],
     sourceCodeUrl:
-      "https://github.com/DE4D-P00L/Code_Repo/tree/main/MCA_project",
+      "https://github.com/iAmPrashant-Dev/Code_Repo/tree/main/MCA_project",
     liveDemoUrl:
-      "https://de4d-p00l.github.io/Code_Repo/Project_1/Home/index.html",
+      "https://iAmPrashant-Dev.github.io/Code_Repo/Project_1/Home/index.html",
   },
 ];

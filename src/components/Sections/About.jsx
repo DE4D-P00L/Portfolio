@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import image from "../../assets/about.png";
+import AboutCodeCard from "../ui/AboutCodeCard";
 import Reveal from "../animations/Reveal";
 import RevealFromBottom from "../animations/RevealFromBottom";
 import NavAnimation from "../animations/NavAnimation";
@@ -24,33 +24,28 @@ const About = () => {
               </h2>
             </RevealFromBottom>
             <p className="mt-10 text-2xl text-justify">
-              During my studies as a{" "}
-              <Reveal section="about">
+              I’m a{" "}
+              <Reveal>
                 <span className="dark:text-accent-dark text-accent-light">
-                  {"MCA"}
+                  {"Full Stack Developer"}
                 </span>
               </Reveal>{" "}
-              student, I delved into back-end development and realized my
-              natural flair for UI/UX design. Motivated by this realization, I
-              began learning front-end development alongside my studies.
+              passionate about building scalable and interactive web applications. I enjoy transforming ideas into real products using the{" "}
+              <Reveal>
+                <span className="dark:text-accent-dark text-accent-light">
+                  {"MERN stack, Next.js, Vue.js, Nuxt.js"}
+                </span>
+              </Reveal>{" "}
+              and modern web technologies. I focus on creating clean, user-friendly, and high-performance digital experiences.
             </p>
-            <p className="mt-3 text-2xl text-justify">
-              Driven and enthusiastic{" "}
-              <Reveal section="about">
+            <p className="mt-6 text-2xl text-justify">
+              I enjoy solving complex problems and exploring AI-powered solutions using tools like{" "}
+              <Reveal>
                 <span className="dark:text-accent-dark text-accent-light">
-                  {"Full-Stack developer"}
+                  {"OpenAI and LangChain"}
                 </span>
-              </Reveal>{" "}
-              eager to leverage my{" "}
-              <Reveal section="about">
-                <span className="dark:text-accent-dark text-accent-light">
-                  {"MERN Stack"}
-                </span>
-              </Reveal>{" "}
-              skills to contribute to innovative projects. Possess a strong
-              foundation in HTML, CSS, JavaScript, React, Node.js, Express.js,
-              and MongoDB, etc. Coupled with a passion for creating
-              user-friendly, responsive and impactful web applications.
+              </Reveal>
+              . I’m constantly learning, building projects, and improving my skills through hands-on development. My goal is to create impactful products that combine innovation, functionality, and great user experience.
             </p>
           </div>
           <div className="flex-1 flex items-center justify-center">
@@ -61,8 +56,9 @@ const About = () => {
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "reverse",
-              }}>
-              <img src={image} alt="" className="w-[550px] z-[10]" />
+              }}
+              className="w-full flex justify-center z-[10]">
+              <AboutCodeCard />
             </motion.div>
           </div>
         </div>

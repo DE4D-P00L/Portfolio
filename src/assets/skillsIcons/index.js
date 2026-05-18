@@ -14,6 +14,16 @@ import fmLogo from "./framer.png";
 import zustandLogo from "./zustand.png";
 import daisyUILogo from "./daisyui.png";
 import postman from "./postman.png";
+import bullmqLogo from "./bullmq.png";
+import cursorLogo from "./cursor-ai-logo-hd.png";
+import dockerLogo from "./docker.png";
+import googleLogo from "./google.png";
+import langchainLogo from "./langchain.png";
+import nextLogo from "./next.png";
+import nuxtLogo from "./nuxt.png";
+import openaiLogo from "./openai.png";
+import redisLogo from "./redis.png";
+import vueLogo from "./vue.png";
 
 export {
   cssLogo,
@@ -32,4 +42,14 @@ export {
   zustandLogo,
   daisyUILogo,
   postman,
+  bullmqLogo,
+  cursorLogo,
+  dockerLogo,
+  googleLogo,
+  langchainLogo,
+  nextLogo,
+  nuxtLogo,
+  openaiLogo,
+  redisLogo,
+  vueLogo,
 };

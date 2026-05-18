@@ -15,6 +15,16 @@ import {
   zustandLogo,
   daisyUILogo,
   postman,
+  bullmqLogo,
+  cursorLogo,
+  dockerLogo,
+  googleLogo,
+  langchainLogo,
+  nextLogo,
+  nuxtLogo,
+  openaiLogo,
+  redisLogo,
+  vueLogo,
 } from "../assets/skillsIcons";
 
 export const skillsData = [
@@ -38,7 +48,46 @@ export const skillsData = [
     title: "Tailwind",
     imageUrl: tailwindLogo,
   },
-
+  {
+    id: 17,
+    title: "NextJS",
+    imageUrl: nextLogo,
+  },
+  {
+    id: 18,
+    title: "VueJS",
+    imageUrl: vueLogo,
+  },
+  {
+    id: 19,
+    title: "NuxtJS",
+    imageUrl: nuxtLogo,
+  },
+  {
+    id: 20,
+    title: "Docker",
+    imageUrl: dockerLogo,
+  },
+  {
+    id: 21,
+    title: "Redis",
+    imageUrl: redisLogo,
+  },
+  {
+    id: 22,
+    title: "BullMQ",
+    imageUrl: bullmqLogo,
+  },
+  {
+    id: 23,
+    title: "OpenAI",
+    imageUrl: openaiLogo,
+  },
+  {
+    id: 24,
+    title: "Langchain",
+    imageUrl: langchainLogo,
+  },
   {
     id: 5,
     title: "Redux",
